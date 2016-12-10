@@ -85,22 +85,22 @@
 
 - (NSArray *)tabBarItemsAttributesForController {
     NSDictionary *firstTabBarItemsAttributes = @{
-//                                                 CYLTabBarItemTitle : @"首页",
+                                                 CYLTabBarItemTitle : @"首页",
                                                  CYLTabBarItemImage : @"home_normal",
                                                  CYLTabBarItemSelectedImage : @"home_highlight",
                                                  };
     NSDictionary *secondTabBarItemsAttributes = @{
-//                                                  CYLTabBarItemTitle : @"同城",
+                                                  CYLTabBarItemTitle : @"同城",
                                                   CYLTabBarItemImage : @"mycity_normal",
                                                   CYLTabBarItemSelectedImage : @"mycity_highlight",
                                                   };
     NSDictionary *thirdTabBarItemsAttributes = @{
-//                                                 CYLTabBarItemTitle : @"消息",
+                                                 CYLTabBarItemTitle : @"消息",
                                                  CYLTabBarItemImage : @"message_normal",
                                                  CYLTabBarItemSelectedImage : @"message_highlight",
                                                  };
     NSDictionary *fourthTabBarItemsAttributes = @{
-//                                                  CYLTabBarItemTitle : @"我的",
+                                                  CYLTabBarItemTitle : @"我的",
                                                   CYLTabBarItemImage : @"account_normal",
                                                   CYLTabBarItemSelectedImage : @"account_highlight"
                                                   };
@@ -120,7 +120,7 @@
 #warning CUSTOMIZE YOUR TABBAR APPEARANCE
     // Customize UITabBar height
     // 自定义 TabBar 高度
-     tabBarController.tabBarHeight = 40.f;
+     tabBarController.tabBarHeight = 49.f;
     
     // set the text color for unselected state
     // 普通状态下的文字属性
